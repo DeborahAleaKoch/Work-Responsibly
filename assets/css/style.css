@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Roboto-Reg";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Roboto-Reg";
+  background-color: #cccccc;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/*  % Breite, Höhe und Frabe des Headers angepasst */
+header {
+  width: 1440px;
+  height: 662px;
+  /* padding-bottom: 56px; */
+  border-bottom: #5350505b 5px solid;
+}
+
+/*  % Die Navigationsleister */
+.coloredNav {
+  padding-top: 20px;
+  padding-bottom: 103px;
+}
+
+a {
+  margin-right: 22.7px;
+  text-decoration: none;
+}
+
+/* % Gestaltung der ersten Section im Herader, Schriftblock */
+.sectionHeader {
+  display: block;
+  width: 620px;
+  height: 234px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.coloredNav,
+.visitedLinkCol,
+h1 {
+  color: #659d89;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/*  % Die Gestaltung der SocialMedia Icons und Ausrichtung auf die rechte Seite */
+.icon {
+  display: block;
+  width: 1240px;
+  height: 73.5px;
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+li {
+  list-style: none;
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+}
+
+/* % Gestaltung des Links zum Footer */
+.aFooterCol {
+  color: #666666;
+  font-size: 16px;
+  padding-bottom: 65.5px;
+}
+
+/*  % Box Gestaltung der div Main mit den Bildern der Emojis */
+.divMainEmo {
+  width: 1440px;
+  height: 737.5px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 56px;
+  margin-bottom: 15px;
+}
+
+.emotionText {
+  font-size: 16px;
+}
+
+.emoGifBox {
+  width: 1240px;
+  height: 679px;
+  /* background-color: azure; */
+  text-align: center;
+  padding: 80px;
+}
+
+/* % die margin wird nur für die beiden lesten bilder in der reihe benötigt */
+.emoSize {
+  width: 320px;
+  height: 232px;
+  margin-left: 52px;
+}
+
+.emotionGif {
+  width: 1080px;
+  height: 284.5px;
+}
+
+/* % Beginn von Main mit Bildern und den dazu gehörigen Unterschriften. */
+
+.featuresBox {
+  width: 1440px;
+  height: 3552px;
+}
+
+.picSection {
+  padding: 80px;
+}
+
+.picSize {
+  width: 756px;
+  height: 425.25px;
+  margin-bottom: 17.5px;
+}
+
+/* .firstPicBox {
+    width: 1080px;
+    height: 534.25px;
+} */
+
+/* % Bild Beschreibungen */
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #666666;
+}
+
+.figcaption {
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* % Box für das Bild und die Unterschrift, damit der Text darunter zentriert werden kann*/
+article {
+  padding-bottom: 100px;
+}
+
+.textCenterPic {
+  width: 756px;
+  height: 425.25px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.drittesBild {
+  width: 1080px;
+  height: 533.2px;
+  padding-bottom: 100px;
+}
+
+.thirdPicBox {
+  padding-bottom: 100px;
+}
