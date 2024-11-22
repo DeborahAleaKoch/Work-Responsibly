@@ -134,10 +134,11 @@ h3 {
   margin-bottom: 17.5px;
 }
 
-/* .firstPicBox {
-    width: 1080px;
-    height: 534.25px;
-} */
+.pictureBox {
+  width: 1080px;
+  height: 534.25px;
+  margin-bottom: 100px;
+}
 
 /* % Bild Beschreibungen */
 
@@ -166,14 +167,4 @@ article {
 
 .floatRight {
   float: right;
-}
-
-.drittesBild {
-  width: 1080px;
-  height: 533.2px;
-  padding-bottom: 100px;
-}
-
-.thirdPicBox {
-  padding-bottom: 100px;
 }
