@@ -13,15 +13,29 @@ html {
   font-size: 10px;
   font-family: "Roboto-Reg";
   background-color: #cccccc;
+}
+
+/* body {
   padding-left: 100px;
   padding-right: 100px;
-}
+} */
+
 /*  % Breite, Höhe und Frabe des Headers angepasst */
+#headerBox {
+    width: 1440px;
+    height: 662;
+    margin-bottom: 56px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: #5350505b 2px solid;
+    box-shadow: 0 4px 2px -2px rgb(166, 166, 166);
+}
+
 header {
   width: 1440px;
   height: 662px;
   /* padding-bottom: 56px; */
-  border-bottom: #5350505b 5px solid;
+  /* border-bottom: #5350505b 5px solid; */
 }
 
 /*  % Die Navigationsleister */
@@ -55,6 +69,12 @@ h1 {
 }
 
 /*  % Die Gestaltung der SocialMedia Icons und Ausrichtung auf die rechte Seite */
+main {
+    width: 1440px;
+    height: 3552px;
+    
+}
+
 .icon {
   display: block;
   width: 1240px;
@@ -81,10 +101,14 @@ li {
 }
 
 /*  % Box Gestaltung der div Main mit den Bildern der Emojis */
+
 .divMainEmo {
   width: 1440px;
   height: 737.5px;
   margin-bottom: 50px;
+  border-bottom: #5350505b 2px solid;
+  padding-left: 100px;
+    padding-right: 100px;
 }
 
 h3 {
@@ -100,9 +124,9 @@ h3 {
 .emoGifBox {
   width: 1240px;
   height: 679px;
-  /* background-color: azure; */
   text-align: center;
   padding: 80px;
+  
 }
 
 /* % die margin wird nur für die beiden lesten bilder in der reihe benötigt */
@@ -121,7 +145,9 @@ h3 {
 
 .featuresBox {
   width: 1440px;
-  height: 3552px;
+  height: 2733.39px;
+  border-bottom: #5350505b 2px solid;
+  padding-left: 100px;
 }
 
 .picSection {
