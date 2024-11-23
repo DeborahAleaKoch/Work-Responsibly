@@ -3,6 +3,11 @@
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,27 +20,20 @@ html {
   background-color: #cccccc;
 }
 
-/* body {
-  padding-left: 100px;
-  padding-right: 100px;
-} */
-
 /*  % Breite, Höhe und Frabe des Headers angepasst */
 #headerBox {
-    width: 1440px;
-    height: 662;
-    margin-bottom: 56px;
-    padding-left: 100px;
-    padding-right: 100px;
-    border-bottom: #5350505b 2px solid;
-    box-shadow: 0 4px 2px -2px rgb(166, 166, 166);
+  width: 1440px;
+  height: 662;
+  margin-bottom: 56px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: #5350505b 2px solid;
+  box-shadow: 0 4px 2px -2px rgb(166, 166, 166);
 }
 
 header {
   width: 1440px;
   height: 662px;
-  /* padding-bottom: 56px; */
-  /* border-bottom: #5350505b 5px solid; */
 }
 
 /*  % Die Navigationsleister */
@@ -70,9 +68,8 @@ h1 {
 
 /*  % Die Gestaltung der SocialMedia Icons und Ausrichtung auf die rechte Seite */
 main {
-    width: 1440px;
-    height: 3552px;
-    
+  width: 1440px;
+  height: 3552px;
 }
 
 .icon {
@@ -91,13 +88,24 @@ li {
   width: 20px;
   height: 20px;
   text-align: right;
+  cursor: pointer;
 }
 
-/* % Gestaltung des Links zum Footer */
+/* % hover über die social icons */
+
+/* % Gestaltung des A-Tags und Hover */
 .aFooterCol {
   color: #666666;
   font-size: 16px;
-  padding-bottom: 65.5px;
+  margin-bottom: 65.5px;
+  /* & :hover {
+    border: 5px solid green;
+  } */
+}
+
+.aFooterCol:hover {
+  /* border: 2px solid pink; */
+  font-family: "Roboto-Bold";
 }
 
 /*  % Box Gestaltung der div Main mit den Bildern der Emojis */
@@ -108,7 +116,7 @@ li {
   margin-bottom: 50px;
   border-bottom: #5350505b 2px solid;
   padding-left: 100px;
-    padding-right: 100px;
+  padding-right: 100px;
 }
 
 h3 {
@@ -126,7 +134,6 @@ h3 {
   height: 679px;
   text-align: center;
   padding: 80px;
-  
 }
 
 /* % die margin wird nur für die beiden lesten bilder in der reihe benötigt */
@@ -196,21 +203,21 @@ article {
 }
 
 /*  % Layout vom Footer erstellen */
-.footerFooter{
-    text-align: center;
-    /* border: 1px solid pink; */
-    width: 1440px;
-    height: 202px;
+.footerFooter {
+  text-align: center;
+  /* border: 1px solid pink; */
+  width: 1440px;
+  height: 202px;
 }
 
 #layoutFooterA {
-    font-size: 20px;
-    color: #666666;
-    /* margin-bottom: 82px; */
-    margin: 0;
+  font-size: 20px;
+  color: #666666;
+  /* margin-bottom: 82px; */
+  margin: 0;
 }
 
 footer p {
-    margin-top: 82px;
-    font-size: 10px;
+  margin-top: 82px;
+  font-size: 10px;
 }
