@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+.visitedLinkCol:hover {
+    font-family: "Roboto-Bold";
+}
+
 /* % Gestaltung der ersten Section im Herader, Schriftblock */
 .sectionHeader {
   display: block;
