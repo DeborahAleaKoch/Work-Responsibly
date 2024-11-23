@@ -152,6 +152,14 @@ h3 {
   margin-left: 52px;
 }
 
+.hoverPic:hover {
+    box-shadow: 0px 0px 15px 2px gray;
+}
+
+.emoSize:hover {
+    box-shadow: 0px 0px 15px 2px gray;
+}
+
 .emotionGif {
   width: 1080px;
   height: 284.5px;
