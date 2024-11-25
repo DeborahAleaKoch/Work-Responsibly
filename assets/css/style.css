@@ -107,9 +107,6 @@ li {
   color: #666666;
   font-size: 16px;
   margin-bottom: 65.5px;
-  /* & :hover {
-    border: 5px solid green;
-  } */
 }
 
 .aFooterCol:hover {
